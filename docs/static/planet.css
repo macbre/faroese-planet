@@ -13,6 +13,11 @@ nav {
 /* colors */
 a {
 	color: #405d27;
+	transition: color .5s;
+}
+
+a:hover {
+	color: #748e5e;
 }
 
 /* spacing */
@@ -149,18 +154,19 @@ article h3 {
 	font-weight: 400;
 	position: relative;
 	left: -25px;
-	font-weight: bold;
 	border-top: solid 3px #00000011;
 	padding-top: 15px;
 	padding-right: 100px;
+	letter-spacing: -2px;
 }
 
 article h3:before {
 	content: " ";
 	position: absolute;
 	width: 100px;
-	border-top: solid 3px #00000033;
+	border-top: solid 4px #748e5e;
 	top: -3px;
+	opacity: .5;
 }
 
 article time {
