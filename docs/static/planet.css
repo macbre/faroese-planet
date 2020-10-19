@@ -1,0 +1,163 @@
+body,
+article h1,
+article h3 {
+	font-family: "Scope One", sans-serif;
+}
+
+.hero h1,
+nav,
+footer {
+	font-family: "Josefin Sans";
+}
+
+/* spacing */
+.hero {
+	background: #33C3F0;
+	border-bottom: 5px solid #33C3F022;
+	color: #fff;
+	padding: 3em 0;
+	position: relative;
+}
+
+.hero h1 {
+	font-weight: normal;
+	font-size: 4em;
+	border-bottom: solid 3px #ffffffaa;
+	display: inline-block;
+}
+
+.hero h2 {
+	font-weight: normal;
+	font-size: 2em;
+	padding-left: 1em;
+}
+
+.welcome {
+	background: #33C3F016;
+	color: #145c73;
+	padding: 2em 0;
+	font-size: 1.75em;
+	text-align: center;
+	position: relative;
+}
+
+.welcome p {
+	margin: 0;
+	line-height: 2em;
+}
+
+.welcome em {
+	font-style: normal;
+	font-weight: bold;
+	border-bottom: solid 3px #145c73aa;
+}
+
+/* background */
+.hero:before,
+.welcome:before {
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url(carta_marina.webp) 50% 0;
+	top: 0;
+	left: 0;
+	opacity: 0.4;
+	/* background-size: cover; */
+}
+
+.welcome:before {
+	background-position: 50% -260px;
+	opacity: 0.2;
+}
+
+/* footer */
+footer {
+	background-color: #33C3F016;
+	color: #000000cc;
+	padding: 4em 0;
+	border-top: solid 1px #33C3F0aa;
+	box-shadow: #33C3F066 0 0 50px;
+}
+
+/* nav */
+nav {
+	margin: 2em 0 0 0;
+	border-top: 2px solid #33C3F066;
+	padding-top: 2em;
+	letter-spacing: -1px;
+}
+
+nav ul {
+	margin: 0;
+	list-style: none;
+	line-height: 2em;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 0.75em 0 0;
+	line-height: 1.75em;
+}
+
+nav a {
+	background: #145c73;
+	color: #ffffffcc;
+	display: inline-block;
+	padding: 0 .5em;
+	text-decoration: none;
+}
+
+/* article */
+article {
+	margin: 5em 0;
+}
+
+article div {
+	font-size: 1.1em;
+	line-height: 2em;
+
+	/* more gradient */
+	max-height: 550px;
+	overflow: hidden;
+	position: relative;
+}
+
+article div:after {
+	position: absolute;
+	top: 450px;
+	width: 100%;
+	content: " ";
+	height: 100px;
+	left: 0;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100 */
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+article h3 {
+	color: #00000033;
+	font-size: 1.5em;
+	font-weight: 400;
+	position: relative;
+	left: -25px;
+	font-weight: bold;
+	border-top: solid 3px #00000011;
+	padding-top: 15px;
+	padding-right: 100px;
+}
+
+article h3:before {
+	content: " ";
+	position: absolute;
+	width: 100px;
+	border-top: solid 3px #00000033;
+	top: -3px;
+}
+
+article time {
+	position: absolute;
+	right: 25px;
+	top: 20px;
+	color: #000000aa;
+}

@@ -1,0 +1,44 @@
+name: Update The Planet
+
+on:
+  pull_request:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '*/60 * * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    # https://github.com/actions/checkout
+    - uses: actions/checkout@v2-beta
+      with:
+        ref: master
+
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
+    - name: Set up git repository
+      run: |
+        git status
+        git branch
+
+        # https://github.com/actions/checkout#push-a-commit-using-the-built-in-token
+        git config user.name "macbrebot"
+        git config user.email "<51094006+macbrebot@users.noreply.github.com>"
+
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+
+    - name: Update The Planet
+      run: make
+
+    - name: Commit changes
+      run: |
+        git diff
+        git add docs
+        ( git commit -m 'Updating the Planet via GitHub Actions' && git push origin master ) || echo 'Nothing to commit'

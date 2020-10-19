@@ -1,0 +1,73 @@
+<html lang="pl">
+<head>
+	<title>Nordycka Planeta | Polskie blogi o Północy w jednym miejscu</title>
+
+	<meta property="og:title" content="Nordycka Planeta" />
+	<meta property="og:description" content="Polskie blogi o Północy w jednym miejscu" />
+	<meta property="og:image" content="http://planeta.nordic-talking.pl/static/planet.jpg" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Scope+One:400,600|Josefin+Sans:400' rel='stylesheet' type='text/css'>
+
+	<link rel="shortcut icon" href="./favicon.ico" />
+
+	<!-- http://getskeleton.com/ -->
+	<link rel="stylesheet" href="static/normalize.css">
+	<link rel="stylesheet" href="static/skeleton.css">
+	<link rel="stylesheet" href="static/planet.css">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78929122-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-78929122-2');
+	</script>
+</head>
+
+<body>
+<div class="hero">
+	<div class="container">
+		<h1>Nordycka Planeta</h1>
+		<h2>Polskie blogi o Północy w jednym miejscu</h2>
+	</div>
+</div>
+
+<div class="welcome">
+	<div class="container">
+		<p>Naszym celem jest <em>zebranie w jednym miejscu</em> najnowszych <em>wpisów z blogów</em> poświęconych szeroko rozumianej <em>tematyce nordyckiej</em>.</p>
+
+		<nav><ul>
+{% for name, _, url in feeds %}
+			<li><a href="{{ url | e }}" target="_blank">{{ name | e }}</a></li>{% endfor %}
+		</ul></nav>
+	</div>
+</div>
+
+{% for article in articles %}
+<div class="container">
+	<article itemscope itemtype="http://schema.org/BlogPosting">
+		<h3 itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><span itemprop="name">{{ article.feed_name | e }}</span></h3>
+		<time itemprop="datePublished" content="{{ article.date | e }}">{{ article.date_iso }}</time>
+		<h1>
+			<a href="{{ article.link | e }}"  itemprop="headline">{{ article.title | e }}</a>
+		</h1>
+		<meta itemprop="author" content="{{ article.author | e }}">
+
+		<div itemprop="articleBody">{{ article.summary }}</div>
+	</article>
+</div>
+{% endfor %}
+
+<footer>
+	<div class="container">
+		<p><a href="https://commons.wikimedia.org/wiki/File:Carta_Marina-lightened.jpg">Tło nagłówka</a> z zasobów Wikimedia Commons.</p>
+		<p>Całość napędza zespół w składzie <a href="https://www.python.org/">Python</a>, <a href="https://docs.getpelican.com/en/stable/">Pelican</a> i <a href="https://pypi.org/project/pelican-planet/">Pelican Planet</a> | <a href="https://github.com/macbre/nordic-feed">GitHub</a> | Realizacja i opieka: Maciej Brencz</p>
+	</div>
+</footer>
+
+</body>
+</html>
