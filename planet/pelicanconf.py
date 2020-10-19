@@ -43,6 +43,7 @@ PLANET_FEEDS = {
 	"Farerskie kadry": "https://farerskiekadry.pl/feed",
 	"Føroyar - Wyspy Owcze Pod Lupą": "https://havnar.blogspot.com/feeds/posts/default?alt=rss",
 	"Local.fo": "https://local.fo/feed/",
+        "The Faroe Islands Podcast": "https://faroepodcast.libsyn.com/rss",
 }
 
 PLANET_TEMPLATE = 'planet.html.tmpl'

@@ -27,4 +27,4 @@ make
 1. [Farerskie kadry](https://farerskiekadry.pl/feed)
 1. [Føroyar - Wyspy Owcze Pod Lupą](https://havnar.blogspot.com/feeds/posts/default?alt=rss)
 1. [Local.fo](https://local.fo/feed/)
-
+1. [The Faroe Islands Podcast](https://faroepodcast.libsyn.com/rss)
