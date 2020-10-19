@@ -38,9 +38,9 @@ PLUGINS = [
 
 # https://pypi.org/project/pelican-planet/
 PLANET_FEEDS = {
+	"Bloggur hjá Birgir Kruse": "https://birkblog.blogspot.com/feeds/posts/default?alt=rss",
 	"Farerskie kadry": "https://farerskiekadry.pl/feed",
 	"Føroyar - Wyspy Owcze Pod Lupą": "https://havnar.blogspot.com/feeds/posts/default?alt=rss",
-	"Bloggur hjá Birgir Kruse": "https://birkblog.blogspot.com/feeds/posts/default?alt=rss",
 	"Local.fo": "https://local.fo/feed/",
 }
 
