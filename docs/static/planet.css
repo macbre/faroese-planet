@@ -1,20 +1,25 @@
-body,
-article h1,
-article h3 {
-	font-family: "Scope One", sans-serif;
+body {
+	font-family: "EB Garamond", sans-serif;
 }
 
 .hero h1,
-nav,
-footer {
-	font-family: "Josefin Sans";
+article h1,
+article h3,
+nav {
+	font-family: "Roboto Slab", sans;
+	letter-spacing: -.2rem;
+}
+
+/* colors */
+a {
+	color: #405d27;
 }
 
 /* spacing */
 .hero {
-	background: #33C3F0;
-	border-bottom: 5px solid #33C3F022;
-	color: #fff;
+	background: rgb(64 93 39 / 0.8);
+	border-bottom: 5px rgb(64 93 39 / 0.5);
+	color: #eee;
 	padding: 3em 0;
 	position: relative;
 }
@@ -33,7 +38,7 @@ footer {
 }
 
 .welcome {
-	background: #33C3F016;
+	background: rgb(64 93 39 / 0.2);
 	color: #145c73;
 	padding: 2em 0;
 	font-size: 1.75em;
@@ -73,18 +78,15 @@ footer {
 
 /* footer */
 footer {
-	background-color: #33C3F016;
-	color: #000000cc;
-	padding: 4em 0;
-	border-top: solid 1px #33C3F0aa;
-	box-shadow: #33C3F066 0 0 50px;
+	background-color: rgb(64 93 39 / 0.1);
+	color: #333;
+	line-height: 1.5em;
+	padding: 3em 0;
+	font-family: "Roboto Slab", sans;
 }
 
 /* nav */
 nav {
-	margin: 2em 0 0 0;
-	border-top: 2px solid #33C3F066;
-	padding-top: 2em;
 	letter-spacing: -1px;
 }
 
@@ -101,11 +103,17 @@ nav ul li {
 }
 
 nav a {
-	background: #145c73;
-	color: #ffffffcc;
+	background: rgb(64 93 39 / 0.5);
+	color: #fff;
 	display: inline-block;
 	padding: 0 .5em;
 	text-decoration: none;
+	transition: background .5s;
+}
+
+nav a:hover {
+	background: rgb(64 93 39 / 0.75);
+	color: #fff;
 }
 
 /* article */
@@ -114,8 +122,8 @@ article {
 }
 
 article div {
-	font-size: 1.1em;
-	line-height: 2em;
+	font-size: 1.25em;
+	line-height: 1.75em;
 
 	/* more gradient */
 	max-height: 550px;
@@ -160,4 +168,6 @@ article time {
 	right: 25px;
 	top: 20px;
 	color: #000000aa;
+	font-family: "Roboto Sans";
 }
+
