@@ -22,7 +22,9 @@ make
 
 ## Feeds in this planet
 
+1. [Anja's blog — My Faroe Islands](https://the-faroe-islands.com/blog?format=rss)
+1. [Bloggur hjá Birgir Kruse](https://birkblog.blogspot.com/feeds/posts/default?alt=rss)
 1. [Farerskie kadry](https://farerskiekadry.pl/feed)
 1. [Føroyar - Wyspy Owcze Pod Lupą](https://havnar.blogspot.com/feeds/posts/default?alt=rss)
-1. [Bloggur hjá Birgir Kruse](https://birkblog.blogspot.com/feeds/posts/default?alt=rss)
 1. [Local.fo](https://local.fo/feed/)
+
