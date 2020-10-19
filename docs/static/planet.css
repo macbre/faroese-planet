@@ -7,7 +7,7 @@ article h1,
 article h3,
 nav {
 	font-family: "Roboto Slab", sans;
-	letter-spacing: -.2rem;
+	letter-spacing: -.3rem;
 }
 
 /* colors */
@@ -119,10 +119,11 @@ nav a:hover {
 /* article */
 article {
 	margin: 5em 0;
+	letter-spacing: -.02rem;
 }
 
-article div {
-	font-size: 1.25em;
+article div[itemprop="articleBody"] {
+	font-size: 1.5em;
 	line-height: 1.75em;
 
 	/* more gradient */
