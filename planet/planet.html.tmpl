@@ -29,21 +29,23 @@
 </head>
 
 <body>
-<div class="hero">
-	<div class="container">
-		<h1>Faroese Planet</h1>
-		<h2>Blogs about Faroe Islands from around the world</h2>
+<div class="bg">
+	<div class="hero">
+		<div class="container">
+			<h1>Faroese Planet</h1>
+			<h2>Blogs about Faroe Islands from around the world</h2>
+		</div>
 	</div>
-</div>
 
-<div class="welcome">
-	<div class="container">
-		<!--<p>Your daily dose of Faroese blog posts.</p>-->
+	<div class="welcome">
+		<div class="container">
+			<!--<p>Your daily dose of Faroese blog posts.</p>-->
 
-		<nav><ul>
-{% for name, _, url in feeds %}
-			<li><a href="{{ url | e }}" target="_blank">{{ name | e }}</a></li>{% endfor %}
-		</ul></nav>
+			<nav><ul>
+	{% for name, _, url in feeds %}
+				<li><a href="{{ url | e }}" target="_blank">{{ name | e }}</a></li>{% endfor %}
+			</ul></nav>
+		</div>
 	</div>
 </div>
 

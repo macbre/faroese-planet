@@ -17,7 +17,7 @@ a {
 
 /* spacing */
 .hero {
-	background: rgb(64 93 39 / 0.8);
+	background: rgb(64 93 39 / 0.6);
 	border-bottom: 5px rgb(64 93 39 / 0.5);
 	color: #eee;
 	padding: 3em 0;
@@ -58,22 +58,21 @@ a {
 }
 
 /* background */
-.hero:before,
-.welcome:before {
+.bg {
+	position: relative;
+}
+
+.bg:before {
 	content: " ";
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	background: url(carta_marina.webp) 50% 0;
+	background: url(klax.jpg) 50% 40%;
 	top: 0;
 	left: 0;
 	opacity: 0.4;
-	/* background-size: cover; */
-}
-
-.welcome:before {
-	background-position: 50% -260px;
-	opacity: 0.2;
+	background-size: cover;
+	filter: grayscale(0.5);
 }
 
 /* footer */
