@@ -1,0 +1,179 @@
+body {
+	font-family: "EB Garamond", sans-serif;
+}
+
+.hero h1,
+article h1,
+article h3,
+nav {
+	font-family: "Roboto Slab", sans;
+	letter-spacing: -.3rem;
+}
+
+/* colors */
+a {
+	color: #405d27;
+	transition: color .5s;
+}
+
+a:hover {
+	color: #748e5e;
+}
+
+/* spacing */
+.hero {
+	background: rgb(64 93 39 / 0.6);
+	border-bottom: 5px rgb(64 93 39 / 0.5);
+	color: #eee;
+	padding: 3em 0;
+	position: relative;
+}
+
+.hero h1 {
+	font-weight: normal;
+	font-size: 4em;
+	border-bottom: solid 3px #ffffffaa;
+	display: inline-block;
+}
+
+.hero h2 {
+	font-weight: normal;
+	font-size: 2em;
+	padding-left: 1em;
+}
+
+.welcome {
+	background: rgb(64 93 39 / 0.2);
+	color: #145c73;
+	padding: 2em 0;
+	font-size: 1.75em;
+	text-align: center;
+	position: relative;
+}
+
+.welcome p {
+	margin: 0;
+	line-height: 2em;
+}
+
+.welcome em {
+	font-style: normal;
+	font-weight: bold;
+	border-bottom: solid 3px #145c73aa;
+}
+
+/* background */
+.bg {
+	position: relative;
+}
+
+.bg:before {
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url(klax.jpg) 50% 40%;
+	top: 0;
+	left: 0;
+	opacity: 0.4;
+	background-size: cover;
+	filter: grayscale(0.5);
+}
+
+/* footer */
+footer {
+	background-color: rgb(64 93 39 / 0.1);
+	color: #333;
+	line-height: 1.5em;
+	padding: 3em 0;
+	font-family: "Roboto Slab", sans;
+}
+
+/* nav */
+nav {
+	letter-spacing: -1px;
+}
+
+nav ul {
+	margin: 0;
+	list-style: none;
+	line-height: 2em;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 0.75em 0 0;
+	line-height: 1.75em;
+}
+
+nav a {
+	background: rgb(64 93 39 / 0.5);
+	color: #fff;
+	display: inline-block;
+	padding: 0 .5em;
+	text-decoration: none;
+	transition: background .5s;
+}
+
+nav a:hover {
+	background: rgb(64 93 39 / 0.75);
+	color: #fff;
+}
+
+/* article */
+article {
+	margin: 5em 0;
+	letter-spacing: -.02rem;
+}
+
+article div[itemprop="articleBody"] {
+	font-size: 1.5em;
+	line-height: 1.75em;
+
+	/* more gradient */
+	max-height: 550px;
+	overflow: hidden;
+	position: relative;
+}
+
+article div:after {
+	position: absolute;
+	top: 450px;
+	width: 100%;
+	content: " ";
+	height: 100px;
+	left: 0;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100 */
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+article h3 {
+	color: #00000033;
+	font-size: 1.5em;
+	font-weight: 400;
+	position: relative;
+	left: -25px;
+	border-top: solid 3px #00000011;
+	padding-top: 15px;
+	padding-right: 100px;
+	letter-spacing: -2px;
+}
+
+article h3:before {
+	content: " ";
+	position: absolute;
+	width: 100px;
+	border-top: solid 4px #748e5e;
+	top: -3px;
+	opacity: .5;
+}
+
+article time {
+	position: absolute;
+	right: 25px;
+	top: 20px;
+	color: #000000aa;
+	font-family: "Roboto Sans";
+}
+

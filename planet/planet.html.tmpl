@@ -1,0 +1,75 @@
+<html lang="pl">
+<head>
+	<title>Faroese Planet | Blogs about Faroe Islands from around the world</title>
+
+	<meta property="og:title" content="Faroese Planet" />
+	<meta property="og:description" content="Blogs about Faroe Islands from around the world" />
+	<!--<meta property="og:image" content="http://planeta.nordic-talking.pl/static/planet.jpg" />-->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,600|EB+Garamond:400' rel='stylesheet' type='text/css'>
+
+	<link rel="shortcut icon" href="./favicon.ico" />
+
+	<!-- http://getskeleton.com/ -->
+	<link rel="stylesheet" href="static/normalize.css">
+	<link rel="stylesheet" href="static/skeleton.css">
+	<link rel="stylesheet" href="static/planet.css">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78929122-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		// gtag('config', 'UA-78929122-2');
+	</script>
+</head>
+
+<body>
+<div class="bg">
+	<div class="hero">
+		<div class="container">
+			<h1>Faroese Planet</h1>
+			<h2>Blogs about Faroe Islands from around the world</h2>
+		</div>
+	</div>
+
+	<div class="welcome">
+		<div class="container">
+			<!--<p>Your daily dose of Faroese blog posts.</p>-->
+
+			<nav><ul>
+	{% for name, _, url in feeds %}
+				<li><a href="{{ url | e }}" target="_blank">{{ name | e }}</a></li>{% endfor %}
+			</ul></nav>
+		</div>
+	</div>
+</div>
+
+{% for article in articles %}
+<div class="container">
+	<article itemscope itemtype="http://schema.org/BlogPosting">
+		<h3 itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><span itemprop="name">{{ article.feed_name | e }}</span></h3>
+		<time itemprop="datePublished" content="{{ article.date | e }}">{{ article.date_iso }}</time>
+		<h1>
+			<a href="{{ article.link | e }}"  itemprop="headline">{{ article.title | e }}</a>
+		</h1>
+		<meta itemprop="author" content="{{ article.author | e }}">
+
+		<div itemprop="articleBody">{{ article.summary }}</div>
+	</article>
+</div>
+{% endfor %}
+
+<footer>
+	<div class="container">
+		<p>Faroese Planet is powered by <a href="https://www.python.org/">Python</a>, <a href="https://docs.getpelican.com/en/stable/">Pelican</a> &amp; <a href="https://pypi.org/project/pelican-planet/">Pelican Planet</a> | <a href="https://github.com/macbre/faroese-planet">GitHub</a></p>
+		<p>Created and maintained by Maciej Brencz</p>
+	</div>
+</footer>
+
+</body>
+</html>
