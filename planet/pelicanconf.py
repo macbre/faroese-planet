@@ -1,22 +1,15 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
-
 AUTHOR = 'Maciej Brencz'
 SITENAME = 'Farerska Planeta'
-SITEURL = 'http://planeta.farerskiekadry.pl'
+SITEURL = 'https://planeta.farerskiekadry.pl'
 
 PATH = '../docs'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = 'pl'
 
-FEED_ALL_ATOM = 'feed.xml'
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+FEED_ALL_ATOM = 'atom.xml'
+FEED_ALL_RSS = 'rss.xml'
 
 # Blogroll
 LINKS = (
