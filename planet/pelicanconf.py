@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Maciej Brencz'
 SITENAME = 'Farerska Planeta'
-SITEURL = ''
+SITEURL = 'http://planeta.farerskiekadry.pl'
 
 PATH = '../docs'
 
@@ -12,8 +12,7 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'pl'
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM = 'feed.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
