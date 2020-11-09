@@ -42,6 +42,7 @@ PLANET_FEEDS = {
 	"Bloggur hjá Birgir Kruse": "https://birkblog.blogspot.com/feeds/posts/default?alt=rss",
 	"Farerskie kadry": "https://farerskiekadry.pl/feed",
 	"Føroyar - Wyspy Owcze Pod Lupą": "https://havnar.blogspot.com/feeds/posts/default?alt=rss",
+	"Hagstova - News from Statistics Faroe Islands": "https://hagstova.fo/fo/news/rss.xml",
 	"Local.fo": "https://local.fo/feed/",
         "The Faroe Islands Podcast": "https://faroepodcast.libsyn.com/rss",
 }
