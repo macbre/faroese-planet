@@ -45,6 +45,7 @@ PLANET_FEEDS = {
 	"Hagstova - News from Statistics Faroe Islands": "https://hagstova.fo/fo/news/rss.xml",
 	"Local.fo": "https://local.fo/feed/",
         "The Faroe Islands Podcast": "https://faroepodcast.libsyn.com/rss",
+	"Wyspy Owcze Bez Tajemnic": "https://anchor.fm/s/4de2c820/podcast/rss",
 }
 
 PLANET_TEMPLATE = 'planet.html.tmpl'
