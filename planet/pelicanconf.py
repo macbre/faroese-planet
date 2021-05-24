@@ -40,6 +40,7 @@ PLUGINS = [
 PLANET_FEEDS = {
         "Anja's blog — My Faroe Islands": "https://the-faroe-islands.com/blog?format=rss",
 	"Bloggur hjá Birgir Kruse": "https://birkblog.blogspot.com/feeds/posts/default?alt=rss",
+	"Dalsbygd": "https://dalsbygd.blogspot.com/feeds/posts/default?alt=rss"
 	"Farerskie kadry": "https://farerskiekadry.pl/feed",
 	"Føroyar - Wyspy Owcze Pod Lupą": "https://havnar.blogspot.com/feeds/posts/default?alt=rss",
 	"Hagstova - News from Statistics Faroe Islands": "https://hagstova.fo/fo/news/rss.xml",
