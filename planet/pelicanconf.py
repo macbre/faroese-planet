@@ -45,6 +45,7 @@ PLANET_FEEDS = {
 	"Føroyar - Wyspy Owcze Pod Lupą": "https://havnar.blogspot.com/feeds/posts/default?alt=rss",
 	"Hagstova - News from Statistics Faroe Islands": "https://hagstova.fo/fo/news/rss.xml",
 	"Kringvarp Føroya": "https://kvf.fo/rss/news-english",
+	"Kringvarp Føroya - Forsíða": "https://kvf.fo/rss/forsida",
 	"Local.fo": "https://local.fo/feed/",
         "The Faroe Islands Podcast": "https://faroepodcast.libsyn.com/rss",
 	"Wyspy Owcze Bez Tajemnic": "https://anchor.fm/s/4de2c820/podcast/rss",
