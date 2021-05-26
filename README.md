@@ -24,7 +24,13 @@ make
 
 1. [Anja's blog — My Faroe Islands](https://the-faroe-islands.com/blog?format=rss)
 1. [Bloggur hjá Birgir Kruse](https://birkblog.blogspot.com/feeds/posts/default?alt=rss)
+1. [Dalsbygd](https://dalsbygd.blogspot.com/feeds/posts/default?alt=rss)
 1. [Farerskie kadry](https://farerskiekadry.pl/feed)
 1. [Føroyar - Wyspy Owcze Pod Lupą](https://havnar.blogspot.com/feeds/posts/default?alt=rss)
+1. [Hagstova - News from Statistics Faroe Islands](https://hagstova.fo/fo/news/rss.xml)
+1. [Kringvarp Føroya](https://kvf.fo/rss/news-english)
+1. [Kringvarp Føroya - Forsíða](https://kvf.fo/rss/forsida)
 1. [Local.fo](https://local.fo/feed/)
 1. [The Faroe Islands Podcast](https://faroepodcast.libsyn.com/rss)
+1. [Wyspy Owcze Bez Tajemnic](https://anchor.fm/s/4de2c820/podcast/rss)
+1. [Hvannrók](https://www.hvannrok.fo/feed/)
