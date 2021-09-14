@@ -1,1 +1,1 @@
-git+git://github.com/macbre/pelican-planet@0.13.0#pelican-planet
+git+git://github.com/macbre/pelican-planet@0.14.0#pelican-planet
