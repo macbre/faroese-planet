@@ -182,4 +182,6 @@ article p img {
     max-width: 350px !important;
     max-height: 450px !important;
     margin: 1em !important;
+    height: auto !important;
+    width: auto !important;
 }
