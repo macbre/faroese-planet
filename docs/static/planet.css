@@ -177,3 +177,9 @@ article time {
 	font-family: "Roboto Sans";
 }
 
+article p img {
+    float: right !important;
+    max-width: 350px !important;
+    max-height: 450px !important;
+    margin: 1em !important;
+}
