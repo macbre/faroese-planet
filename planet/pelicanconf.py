@@ -52,6 +52,8 @@ PLANET_FEEDS = {
 	"Hvannrók": "https://www.hvannrok.fo/feed/",
 	"Farerskie kadry na Facebooku": "https://macbre.github.io/farerskie-kadry-feed/facebook.xml",
 	"Farerskie kadry na Instagramie": "https://macbre.github.io/farerskie-kadry-feed/instagram.xml",
+	"Twitter - @ForoysktDaily na ": "https://nitter.cz/ForoysktDaily/rss",
+	"Mastodon - @ForoysktDaily": "https://mastodon.social/@ForoysktDaily.rss"
 }
 
 PLANET_TEMPLATE = 'planet.html.tmpl'
