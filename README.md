@@ -34,3 +34,7 @@ make
 1. [The Faroe Islands Podcast](https://faroepodcast.libsyn.com/rss)
 1. [Wyspy Owcze Bez Tajemnic](https://anchor.fm/s/4de2c820/podcast/rss)
 1. [Hvannrók](https://www.hvannrok.fo/feed/)
+1. [Farerskie kadry na Facebooku](https://macbre.github.io/farerskie-kadry-feed/facebook.xml)
+1. [Farerskie kadry na Instagramie](https://macbre.github.io/farerskie-kadry-feed/instagram.xml)
+1. [Twitter - @ForoysktDaily na ](https://nitter.cz/ForoysktDaily/rss)
+1. [Mastodon - @ForoysktDaily](https://mastodon.social/@ForoysktDaily.rss)
