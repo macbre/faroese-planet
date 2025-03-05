@@ -38,3 +38,4 @@ make
 1. [Farerskie kadry na Instagramie](https://macbre.github.io/farerskie-kadry-feed/instagram.xml)
 1. [Twitter - @ForoysktDaily na ](https://nitter.cz/ForoysktDaily/rss)
 1. [Mastodon - @ForoysktDaily](https://mastodon.social/@ForoysktDaily.rss)
+1. [Klub Miłośników Wysp Owczych Faroe.pl](https://faroe.pl/feed/)
