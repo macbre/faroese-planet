@@ -39,3 +39,4 @@ make
 1. [Twitter - @ForoysktDaily na ](https://nitter.cz/ForoysktDaily/rss)
 1. [Mastodon - @ForoysktDaily](https://mastodon.social/@ForoysktDaily.rss)
 1. [Klub Miłośników Wysp Owczych Faroe.pl](https://faroe.pl/feed/)
+1. [Farerskie szorty](https://farerskiekadry.pl/szorty/feed)
