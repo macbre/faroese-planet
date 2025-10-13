@@ -1,1 +1,1 @@
-git+https://github.com/macbre/pelican-planet@v0.23.0#pelican-planet
+pelican-feed-planet==0.24.0
