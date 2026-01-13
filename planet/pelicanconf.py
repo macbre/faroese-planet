@@ -56,6 +56,7 @@ PLANET_FEEDS = {
 	"Mastodon - @ForoysktDaily": "https://mastodon.social/@ForoysktDaily.rss",
 	"Klub Miłośników Wysp Owczych Faroe.pl": "https://faroe.pl/feed/",
 	"Farerskie szorty": "https://farerskiekadry.pl/szorty/feed",
+	"r/FaroeIslands": "https://www.reddit.com/r/FaroeIslands.rss",
 }
 
 PLANET_TEMPLATE = 'planet.html.tmpl'
