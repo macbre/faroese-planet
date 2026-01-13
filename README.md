@@ -40,3 +40,5 @@ make
 1. [Mastodon - @ForoysktDaily](https://mastodon.social/@ForoysktDaily.rss)
 1. [Klub Miłośników Wysp Owczych Faroe.pl](https://faroe.pl/feed/)
 1. [Farerskie szorty](https://farerskiekadry.pl/szorty/feed)
+1. [r/FaroeIslands](https://www.reddit.com/r/FaroeIslands.rss)
+
