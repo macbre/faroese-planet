@@ -41,4 +41,4 @@ make
 1. [Klub Miłośników Wysp Owczych Faroe.pl](https://faroe.pl/feed/)
 1. [Farerskie szorty](https://farerskiekadry.pl/szorty/feed)
 1. [r/FaroeIslands](https://www.reddit.com/r/FaroeIslands.rss)
-
+1. [Faroe Islands Daily](https://faroeislandsdaily.com/feed/)
