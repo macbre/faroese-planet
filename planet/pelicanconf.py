@@ -38,7 +38,7 @@ PLUGINS = [
 
 # https://pypi.org/project/pelican-planet/
 PLANET_FEEDS = {
-        "Anja's blog — My Faroe Islands": "https://the-faroe-islands.com/blog?format=rss",
+	"Anja's blog — My Faroe Islands": "https://the-faroe-islands.com/blog?format=rss",
 	"Bloggur hjá Birgir Kruse": "https://birkblog.blogspot.com/feeds/posts/default?alt=rss",
 	"Dalsbygd": "https://dalsbygd.blogspot.com/feeds/posts/default?alt=rss",
 	"Farerskie kadry": "https://farerskiekadry.pl/feed",
@@ -47,7 +47,7 @@ PLANET_FEEDS = {
 	"Kringvarp Føroya": "https://kvf.fo/rss/news-english",
 	"Kringvarp Føroya - Forsíða": "https://kvf.fo/rss/forsida",
 	"Local.fo": "https://local.fo/feed/",
-        "The Faroe Islands Podcast": "https://faroepodcast.libsyn.com/rss",
+	"The Faroe Islands Podcast": "https://faroepodcast.libsyn.com/rss",
 	"Wyspy Owcze Bez Tajemnic": "https://anchor.fm/s/4de2c820/podcast/rss",
 	"Hvannrók": "https://www.hvannrok.fo/feed/",
 	"Farerskie kadry na Facebooku": "https://macbre.github.io/farerskie-kadry-feed/facebook.xml",
@@ -57,6 +57,7 @@ PLANET_FEEDS = {
 	"Klub Miłośników Wysp Owczych Faroe.pl": "https://faroe.pl/feed/",
 	"Farerskie szorty": "https://farerskiekadry.pl/szorty/feed",
 	"r/FaroeIslands": "https://www.reddit.com/r/FaroeIslands.rss",
+	"Faroe Islands Daily": "https://faroeislandsdaily.com/feed/",
 }
 
 PLANET_TEMPLATE = 'planet.html.tmpl'
