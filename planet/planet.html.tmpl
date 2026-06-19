@@ -2,9 +2,9 @@
 <head>
 	<title>Faroese Planet | Blogs about Faroe Islands from around the world</title>
 
+	<meta charset="utf-8" />
 	<meta property="og:title" content="Faroese Planet" />
 	<meta property="og:description" content="Blogs about Faroe Islands from around the world" />
-	<!--<meta property="og:image" content="http://planeta.nordic-talking.pl/static/planet.jpg" />-->
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -39,30 +39,26 @@
 
 	<div class="welcome">
 		<div class="container">
-			<!--<p>Your daily dose of Faroese blog posts.</p>-->
-
-			<nav><ul>
-	{% for name, _, url in feeds %}
+			<nav><ul>{% for name, _, url in feeds %}
 				<li><a href="{{ url | e }}" target="_blank">{{ name | e }}</a></li>{% endfor %}
 			</ul></nav>
 		</div>
 	</div>
 </div>
 
-{% for article in articles %}
-<div class="container">
+<div class="container">{% for article in articles %}
 	<article itemscope itemtype="http://schema.org/BlogPosting">
 		<h3 itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><span itemprop="name">{{ article.feed_name | e }}</span></h3>
 		<time itemprop="datePublished" content="{{ article.date | e }}">{{ article.date_iso }}</time>
 		<h1>
 			<a href="{{ article.link | e }}"  itemprop="headline">{{ article.title | e }}</a>
 		</h1>
-		<meta itemprop="author" content="{{ article.author | e }}">
-
+		<meta itemprop="author" content="{{ article.author | e }}">{% if article.get('image') is not none %}
+		<figure><img itemprop="thumbnailUrl" src="{{ article.image | e }}" alt="{{ article.title | e }}" /></figure>{% endif %}
 		<div itemprop="articleBody">{{ article.summary }}</div>
 	</article>
-</div>
 {% endfor %}
+</div>
 
 <footer>
 	<div class="container">

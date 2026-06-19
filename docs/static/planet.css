@@ -124,6 +124,7 @@ nav a:hover {
 article {
 	margin: 5em 0;
 	letter-spacing: -.02rem;
+	position: relative;
 }
 
 article div[itemprop="articleBody"] {
@@ -177,11 +178,23 @@ article time {
 	font-family: "Roboto Sans";
 }
 
-article p img {
+article p img,
+article figure img[itemprop="thumbnailUrl"] {
     float: right !important;
     max-width: 350px !important;
     max-height: 450px !important;
     margin: 1em !important;
     height: auto !important;
     width: auto !important;
+}
+
+article figure img[itemprop="thumbnailUrl"] {
+    transform: rotate(2deg);
+    padding: 5px;
+    border: 1px solid #00000011;
+    box-shadow: 0 0 20px #00000022;
+}
+
+article:nth-child(even) figure img[itemprop="thumbnailUrl"] {
+    transform: rotate(-2deg);
 }
