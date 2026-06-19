@@ -60,7 +60,9 @@ PLANET_FEEDS = {
 	"Faroe Islands Daily": "https://faroeislandsdaily.com/feed/",
 }
 
-PLANET_TEMPLATE = 'planet.html.tmpl'
+# PLANET_FEEDS = {"Farerskie kadry": "https://farerskiekadry.pl/feed", "Mastodon - @ForoysktDaily": "https://mastodon.social/@ForoysktDaily.rss", "Faroe Islands Daily": "https://faroeislandsdaily.com/feed/",} # debug
+
+PLANET_TEMPLATE = 'planet.html.tmpl' # Jinja2 template
 PLANET_PAGE = '../docs/index.html'
 
 PLANET_MAX_ARTICLES = 50
