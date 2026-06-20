@@ -42,3 +42,4 @@ make
 1. [Farerskie szorty](https://farerskiekadry.pl/szorty/feed)
 1. [r/FaroeIslands](https://www.reddit.com/r/FaroeIslands.rss)
 1. [Faroe Islands Daily](https://faroeislandsdaily.com/feed/)
+1. [Umhvørvisstovan](https://www.us.fo/category/tidindi/feed/)
