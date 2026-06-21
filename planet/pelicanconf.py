@@ -59,6 +59,7 @@ PLANET_FEEDS = {
 	"r/FaroeIslands": "https://www.reddit.com/r/FaroeIslands.rss",
 	"Faroe Islands Daily": "https://faroeislandsdaily.com/feed/",
 	"Umhvørvisstovan": "https://www.us.fo/category/tidindi/feed/",
+	"Faroe Business Report": "https://faroebusinessreport.com/feed/",
 }
 
 # PLANET_FEEDS = {"Farerskie kadry": "https://farerskiekadry.pl/feed", "Mastodon - @ForoysktDaily": "https://mastodon.social/@ForoysktDaily.rss", "Faroe Islands Daily": "https://faroeislandsdaily.com/feed/",} # debug
