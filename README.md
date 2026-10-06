@@ -44,3 +44,6 @@ make
 1. [Faroe Islands Daily](https://faroeislandsdaily.com/feed/)
 1. [Umhvørvisstovan](https://www.us.fo/category/tidindi/feed/)
 1. [Faroe Business Report](https://faroebusinessreport.com/feed/)
+1. [Northtrotter](https://northtrotter.com/category/faroeislands/feed/)
+1. [wyspy-owcze.pl](https://rss.app/feeds/9X2jb4YQJSlxODXs.xml)
+1. [Zew Północy](https://rss.app/feeds/EnCetQ13begpmp8a.xml)
