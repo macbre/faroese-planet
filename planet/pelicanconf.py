@@ -58,6 +58,8 @@ PLANET_FEEDS = {
 	"Umhvørvisstovan": "https://www.us.fo/category/tidindi/feed/",
 	"Faroe Business Report": "https://faroebusinessreport.com/feed/",
 	"Northtrotter": "https://northtrotter.com/category/faroeislands/feed/",
+    "wyspy-owcze.pl": "https://rss.app/feeds/9X2jb4YQJSlxODXs.xml",
+    "Zew Północy": "https://rss.app/feeds/EnCetQ13begpmp8a.xml",
 }
 
 # PLANET_FEEDS = {"Farerskie kadry": "https://farerskiekadry.pl/feed", "Mastodon - @ForoysktDaily": "https://mastodon.social/@ForoysktDaily.rss", "Faroe Islands Daily": "https://faroeislandsdaily.com/feed/",} # debug
