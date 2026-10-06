@@ -1,7 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
-
 AUTHOR = 'Maciej Brencz'
 SITENAME = 'Farerska Planeta'
 SITEURL = ''
@@ -70,6 +67,11 @@ PLANET_PAGE = '../docs/index.html'
 
 PLANET_MAX_ARTICLES = 50
 PLANET_MAX_ARTICLES_PER_FEED = 5
+
+# Create the RSS feed for the plane
+PLANET_RSS_FILE = '../docs/feed.xml'
+PLANET_RSS_DESCRIPTION = 'Przegląd wiadomości z Wysp Owczych'
+PLANET_RSS_LINK = 'https://farerskiekadry.pl'
 
 # set up logging
 import logging; logging.basicConfig(level=logging.DEBUG)
