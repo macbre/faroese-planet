@@ -49,6 +49,7 @@ PLANET_FEEDS = {
 	"Hvannrók": "https://www.hvannrok.fo/feed/",
 	"Farerskie kadry na Facebooku": "https://macbre.github.io/farerskie-kadry-feed/facebook.xml",
 	"Farerskie kadry na Instagramie": "https://macbre.github.io/farerskie-kadry-feed/instagram.xml",
+	"Farerskie kadry na YouTubie": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0oo9hLafxXGTNiPsoTjw",
 	"Twitter - @ForoysktDaily": "https://keep.md/api/x-rss/ForoysktDaily.xml?content=posts",
 	"Mastodon - @ForoysktDaily": "https://mastodon.social/@ForoysktDaily.rss",
 	"Klub Miłośników Wysp Owczych Faroe.pl": "https://faroe.pl/feed/",
